@@ -4,7 +4,7 @@ provider "github" {
 }
 
 resource "github_repository" "testapp" {
-  name        = "testapp"
+  name        = "testapp2"
   description = "A test app created via Terraform"
   visibility  = "public" # or "private"
   auto_init   = true
